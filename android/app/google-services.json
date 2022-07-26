@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "650834573158",
+    "project_id": "todo-bloc-f7252",
+    "storage_bucket": "todo-bloc-f7252.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650834573158:android:e9a015b8a89126c54c7aa7",
+        "android_client_info": {
+          "package_name": "com.example.flutter_bloc_example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650834573158-pe9fcvjlqdqfvkngkm7qpkj0d97j4ugu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO2pai8vNFymTlqgJjc945jQeIxzsaoqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650834573158-pe9fcvjlqdqfvkngkm7qpkj0d97j4ugu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
