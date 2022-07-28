@@ -11,8 +11,9 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   await Hive.initFlutter();
-  
   Hive.registerAdapter(ToDoAdapter());
+  await Hive.openBox<ToDo>('toDo');
+
   runApp(MultiProvider(
     providers: [
       Provider(create: (_) => Controllers()),

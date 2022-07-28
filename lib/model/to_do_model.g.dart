@@ -18,7 +18,7 @@ class ToDoAdapter extends TypeAdapter<ToDo> {
     };
     return ToDo(
       title: fields[0] as String,
-      description: fields[1] as int,
+      description: fields[1] as String,
     );
   }
 
